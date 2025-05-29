@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+        <!--<img src="logo.jpg" alt="logo" class="logo">-->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+        <div class="header-text">
+            <p>DATA SCIENTIST</p>
+            <h1>Hi,I'm <span>Aman</span><br> Kumar </h1>
+
+        </div>
+
+    </div>  
+
+    </div>
+    <!----------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="aboutme.jpg" alt="about-me">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+               <p>MY name is Aman Kumar and I'm currently pursing my bachelor's degree in engineering from LNCT Group of Colleges, Specializing in Computer Science.
+
+<br>I have a strong interest in mathematics,coding, Data sheet Handling(Excel,CSV), Data Cleaning,Pandas,ChatGPT knowledge,some basic knowledge Machine Learning and currently exploring Numpy,Power BI,Tableau and many more.
+ 
+<br>Beyond academics, I enjoy participating in college like tech events,speech,painting,as they push me to think creatively and imorove continuously. I'm also trying to build a solid foundaion in area lke Machine Learning 
+
+I'm alway eager to learn new things and collaborate with other on meaningful tech projects </p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+
+               </div>
+                  <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>DATA science</span><br>Pandas,Numpy,Matplotlib,MYSQL,Jupyter,Notebook,Ipython</li>
+                        <li><span>Web Development</span><br>HTML,CSS & JavaScript(Basic)</li>
+                        <li><span>Platforms</span><br>PyCharm,Jupyter,Visual Studio Code,IntelliJ IDEA</li>
+                        <li><span>Data Managements</span><br>Data Sheet Handling(Excel,CSV)Pandas</li>
+                    </ul>
+                  </div>
+                  <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>Edu Skill Foundation</span><br>Network Security Associate</li>
+                        <li><span>Edu SkillsFoundation</span><br>AIML</li>
+                        <li><span>Cisco</span><br>Data Analyst</li>
+                    </ul>
+                  </div>
+                  <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>10th</span><br> B K D A V PUBLIC SCHOOL,MOKAMA</li>
+                        <li><span>12th</span><br> RAM RATAN SINGH COLLEGE, MOKAMA</li>
+                        <li><span>B.tech</span><br> L N C T GROUPS OF COLLEGES, BHOPAL</li>
+                    </ul>
+                  </div>
+            </div>
+
+            
+
+            </div>
+
+        </div>
+    </div>
+   <!--------services------> 
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>Frontend web design focuses on the visual and interactive parts of a website that users see and interact with directly. It involves using technologies like HTML for structure, CSS for styling, and JavaScript for interactivity. Frontend developers design layouts, buttons, forms, menus, and animations to ensure a smooth and attractive user experience. A good frontend design is responsive, user-friendly, and works well on all devices, making it a key part of any successful website.</p>
+                <a href="#"> Learn More</a>
+            </div>
+            <div>
+                <i class="fa fa-area-chart"></i>
+                <h2> Data Handling</h2>
+                <p>Data handling is a crucial part of data science that involves collecting, cleaning, organizing, and storing data in a way that makes it ready for analysis. Since raw data often comes in messy or incomplete forms, data scientists must first preprocess it — removing duplicates, handling missing values, and converting it into usable formats. Efficient data handling ensures better model performance, accurate insights, and faster decision-making. It forms the foundation for all further steps in data science, including data visualization, machine learning, and statistical analysis.</p>
+                <a href="#"> Learn More</a>
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>
+                <h2> Data Cleaning</h2>
+                <p>Data cleaning is a vital step in data science that involves fixing or removing incorrect, incomplete, or irrelevant data from a dataset. Real-world data is often messy—it may contain missing values, duplicates, errors, or inconsistent formats. Cleaning the data helps improve the quality and accuracy of the analysis. This process includes tasks like filling in missing values, correcting data types, removing outliers, and standardizing formats. Without proper data cleaning, even the most advanced models can give misleading results.</p>
+                <a href="#"> Learn More</a>
+            </div>
+
+        </div>
+    </div>
+
+   </div>
+   <!-----------portfolio------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="wokimage1.png" >
+                <div class="layer">
+                   <h3>Data Science</h3>
+                   <p>
+                    The app connects you to the talented people around the world.Download it from play store.
+                   </p> 
+                   <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" >
+                <div class="layer">
+                    <h3>Data Handling</h3>
+                    <p>
+                     The app used for listening music .Download it from play store.
+                    </p> 
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg" >
+                <div class="layer">
+                    <h3>Online ANALYST</h3>
+                    <p>
+                     The app is commercial app used for facilitating business activities .Download it from play store.
+                    </p> 
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+        </div>
+     <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <!-------contact------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i><a
+                class="gmail" href="mailto: amanrajputmkg@hotmail.com "> amanrajputmkg@hotmail.com</a></p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i><a class="phone" href="tel:9162277711">9162277711</a></p>
+                <div class="social-icons">
+                   <a href="" ><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="" ><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://github.com/aman23654" ><i class="fa-brands fa-github"></i></a>
+                   <a href="https://www.kaggle.com/AMAN KUMAR3028" ><i class="fa-brands fa-kaggle"></i></a>
+                </div>
+                <a href="Personal Resume.docx" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="Copyright">
+     <p>All Copyright <i class="fa-solid fa-copyright"></i> AMAN RAJPUT.... <i class="fa-solid fa-heart"></i></p>   
+    </div>
+   </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyUmVYfewcEpUywG_Tzda4uRDZhmSTWWVmuxvtD1WzvXU9GmjvPrKP0fhMsGGZ089R7Rg/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout( function(){
+                    msg.innerHTML=" "
+                },1000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
